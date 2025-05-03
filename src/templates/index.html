@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="/static/styles.css?v=1.0">
     <title>SHA256 Hash Generator</title>
 </head>
 <body>
     <div class="container">
-        <h1>SHA256 Hash Generator</h1>
+        <h1 class="header">SHA256 Hash Generator</h1>
+        <h2 class="header">Input Text</h2>        
         <input type="text" id="inputText" placeholder="Enter text here">
         <button id="hashButton">Generate SHA256</button>
-        <h2>SHA256 Output:</h2>
+        <h2 class="header">SHA256 Output:</h2>
         <div id="outputSection" class="output">
             <p id="hashOutput"></p>
         </div>
