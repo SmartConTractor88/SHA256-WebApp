@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=C:\Users\plume\OneDrive\Dators\Hustle\Developing\my_ic_web\ic_web_e3\rust-web-app\target\debug\build\mime_guess-1b049b64f953f462\out\mime_types_generated.rs
